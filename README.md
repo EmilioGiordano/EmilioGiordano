@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm Emilio</h1>
 - 📖 I’m currently learning **Laravel pattern designs, good practices and security**
 
-- 👨‍💻 All of my projects are available at [https://github.com/EmilioGiordano?tab=repositories](https://github.com/EmilioGiordano?tab=repositories)
+- 👨‍💻 Some of my projects are available at [https://github.com/EmilioGiordano?tab=repositories](https://github.com/EmilioGiordano?tab=repositories)
 
-- 💬 Ask me about **Laravel, MySQL**
-
-- 📫 How to reach me **giordanoemilio21@gmail.com**
+- 💬 How to reach me **giordanoemilio21@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
