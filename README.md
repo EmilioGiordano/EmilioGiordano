@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Emilio</h1>
 
-- 📖 I’m currently learning Laravel Patern Designs, C++ & Home Assistant for IoT projects.
+- 📖 I’m currently learning Laravel Patern Designs for Backend Software Development, C++ & Home Assistant for IoT projects.
 
 - 👨‍💻 Some(not all) of my projects are available at [https://github.com/EmilioGiordano?tab=repositories](https://github.com/EmilioGiordano?tab=repositories)
 
