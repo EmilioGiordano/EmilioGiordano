@@ -1,6 +1,6 @@
 
 
-- 📖 I’m currently learning Laravel Patern Designs for Backend Software Development & C++ for IoT projects.
+- 📖 I’m currently learning Laravel Patern Designs for Backend Software Development.
 
 - 👨‍💻 Some of my projects are available at [https://github.com/EmilioGiordano?tab=repositories](https://github.com/EmilioGiordano?tab=repositories)
 
