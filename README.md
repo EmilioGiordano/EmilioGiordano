@@ -3,11 +3,7 @@
 - 👨‍💻 Some of my projects are available at [https://github.com/EmilioGiordano?tab=repositories](https://github.com/EmilioGiordano?tab=repositories)
 
 - 💬 How to reach me **giordanoemilio21@gmail.com**
-
-## 🌐 Connect with me: 
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/emilio-giordano/) 
-
+- 🌐 Connect with me: https://www.linkedin.com/in/emilio-giordano/
 
 
 
