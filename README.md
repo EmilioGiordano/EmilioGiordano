@@ -1,7 +1,6 @@
 
 
-- 👨‍💻 Some of my projects are available at [https://github.com/EmilioGiordano?tab=repositories](https://github.com/EmilioGiordano?tab=repositories)
-
+Suelo hacer repositorios para con resúmenes para que cualquier persona pueda acceder
 - 💬 How to reach me **giordanoemilio21@gmail.com**
 - 🌐 Connect with me: https://www.linkedin.com/in/emilio-giordano/
 
