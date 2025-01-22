@@ -4,7 +4,16 @@ Suelo hacer repositorios informativos y con resúmenes de informática para que 
 - 🌐 Connect with me: https://www.linkedin.com/in/emilio-giordano/
 
 
+### 📚 Repositorios Informativos
 
+- 🔧 **[Redes: comandos de dispositivos Cisco](https://github.com/EmilioGiordano/Hoja-de-Trucos-Cisco-Packet-Tracer)**  
+  Resumen práctico de comandos esenciales para dispositivos Cisco usando Packet Tracer.
+
+- 🔄 **[XOR: Intercambiar valores de 2 variables sin una variable adicional](https://emiliogiordano.github.io/XOR-swap/)**  
+  Una explicación simple sobre cómo intercambiar valores de dos variables utilizando XOR.
+
+- 📜 **[Programación Declarativa: Resúmenes y prácticas](https://emiliogiordano.github.io/Programacion-Declarativa-Practica/)**  
+  Guía y prácticas de programación declarativa (Sintáxis, Listas, Recursividad).
 # 💻 Tech Stack
 
 ### **Web Development:**
