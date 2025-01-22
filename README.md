@@ -1,6 +1,5 @@
+Suelo hacer repositorios informativos y con resúmenes de informática para que cualquier persona pueda acceder a ellos.
 
-
-Suelo hacer repositorios para con resúmenes para que cualquier persona pueda acceder
 - 💬 How to reach me **giordanoemilio21@gmail.com**
 - 🌐 Connect with me: https://www.linkedin.com/in/emilio-giordano/
 
