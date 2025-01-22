@@ -1,8 +1,7 @@
 Suelo hacer repositorios informativos y con resúmenes de informática para que cualquier persona pueda acceder a ellos.
 
-- 💬 How to reach me **giordanoemilio21@gmail.com**
-- 🌐 Connect with me: https://www.linkedin.com/in/emilio-giordano/
-
+- 💬 E-mail **giordanoemilio21@gmail.com**
+- 🌐 LinkedIn: https://www.linkedin.com/in/emilio-giordano/
 
 ### 📚 Repositorios Informativos
 
