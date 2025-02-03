@@ -5,7 +5,7 @@ Suelo hacer repositorios informativos y con resúmenes de informática para que 
 
 ### 📚 Repositorios Informativos
 
-- 🔧 **[Redes: comandos de dispositivos Cisco](https://github.com/EmilioGiordano/Hoja-de-Trucos-Cisco-Packet-Tracer)**  
+- 🔧 **[Redes: comandos de dispositivos Cisco](https://emiliogiordano.github.io/Hoja-de-Trucos-Cisco-Packet-Tracer/)**  
   Resumen práctico de comandos esenciales para dispositivos Cisco usando Packet Tracer.
 
 - 🔄 **[XOR: Intercambiar valores de 2 variables sin una variable adicional](https://emiliogiordano.github.io/XOR-swap/)**  
