@@ -16,6 +16,4 @@
 ---
 ## Apps I made
 - [Hanoi Tower web app game](https://hanoi-tower-eg.vercel.app/)
-### Currently working on when I have time
-- [Portfolio](https://giordanoemilio.netlify.app/)
-- [GitHub contributions widget](https://github-contributions-widget-themes.netlify.app/)
+- Updating soon
