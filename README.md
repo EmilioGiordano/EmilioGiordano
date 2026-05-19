@@ -16,4 +16,4 @@
 ---
 ## Apps I made
 - [Hanoi Tower web app game](https://hanoi-tower-eg.vercel.app/)
-- Updating soon
+- [Dijkstra and A* visualization based on Star Wars Jedi Fallen Order UI style](https://dijsktra-astar-star-wars.netlify.app/)
