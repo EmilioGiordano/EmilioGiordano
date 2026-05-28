@@ -17,3 +17,4 @@
 ## Apps I made
 - [Hanoi Tower web app game](https://hanoi-tower-eg.vercel.app/)
 - [Dijkstra and A* visualization based on Star Wars Jedi Fallen Order UI style](https://dijsktra-astar-star-wars.netlify.app/)
+- [Benchmark: Criba in Rust, Java, C, Python & NumPy](https://github.com/EmilioGiordano/criba-benchmark)
