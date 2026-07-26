@@ -30,6 +30,15 @@ At runtime one `InstancedMesh` per geometry/material pair draws thousands of bri
 <tr>
 <td width="50%" valign="top">
 
+**[CABA rental dashboard](https://dashboard-cvd-unsada.vercel.app/)**
+
+Prices, supply and affordability for Buenos Aires rentals from 2018 to 2026. KPIs and four linked charts, filterable by rooms, years and comuna, each one annotated with why that chart type answers its question. Final project for Data Quality and Visualisation.
+
+<sub>React · TypeScript · Recharts · d3-geo<br>[Live](https://dashboard-cvd-unsada.vercel.app/) · [Code](https://github.com/EmilioGiordano/Dashboard-CVD-UNSAdA)</sub>
+
+</td>
+<td width="50%" valign="top">
+
 **[DBiewer](https://github.com/EmilioGiordano/DBiewer)**
 
 Paste PostgreSQL DDL, get a diagram back. I was tired of reading schemas as walls of syntax and not being able to see them, so I made the tool I wanted.
@@ -37,6 +46,8 @@ Paste PostgreSQL DDL, get a diagram back. I was tired of reading schemas as wall
 <sub>JavaScript<br>[Code](https://github.com/EmilioGiordano/DBiewer)</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 **[Dijkstra & A\*](https://dijsktra-astar-star-wars.netlify.app/)**
@@ -46,8 +57,6 @@ Two pathfinders searching a galaxy map side by side, so you can see exactly wher
 <sub>JavaScript<br>[Live](https://dijsktra-astar-star-wars.netlify.app/) · [Code](https://github.com/EmilioGiordano/Star-Wars-Galaxy-dijkstra-and-A-algorithms-)</sub>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 **[Sieve benchmark](https://criba-expo.netlify.app/)**
@@ -57,6 +66,8 @@ The Sieve of Eratosthenes written five times over and timed against itself, so t
 <sub>Rust · Java · C · Python · NumPy<br>[Live](https://criba-expo.netlify.app/) · [Code](https://github.com/EmilioGiordano/criba-benchmark)</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 **[Postopenman](https://github.com/EmilioGiordano/Postopenman)**
@@ -66,11 +77,13 @@ An API client with a Rust core and a Svelte front end.
 <sub>Rust · Svelte<br>[Code](https://github.com/EmilioGiordano/Postopenman)</sub>
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
-**[Tower of Hanoi](https://hanoi-tower-eg.vercel.app/)** &nbsp; The puzzle, playable in the browser. &nbsp; <sub>[Live](https://hanoi-tower-eg.vercel.app/)</sub>
+**[Tower of Hanoi](https://hanoi-tower-eg.vercel.app/)**
+
+The puzzle, playable in the browser.
+
+<sub>[Live](https://hanoi-tower-eg.vercel.app/)</sub>
 
 </td>
 </tr>
