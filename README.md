@@ -5,9 +5,7 @@
   </picture>
 </p>
 
-I build things you can watch work. A pathfinder expanding across a map, thousands of bricks assembling themselves, a schema turning into a diagram. If a program does something interesting, I want to see it happen.
-
-Licenciatura en Informática at UNSAdA, Buenos Aires.
+Finishing a Bachelor's degree in Computer Science (Licenciatura en Informática) at [UNSAdA](https://www.unsada.edu.ar/), Buenos Aires.
 
 [LinkedIn](https://www.linkedin.com/in/emilio-giordano/) &nbsp;·&nbsp; [bento.me/emiliogiordano](https://bento.me/emiliogiordano) &nbsp;·&nbsp; [giordanoemilio21@gmail.com](mailto:giordanoemilio21@gmail.com)
 
