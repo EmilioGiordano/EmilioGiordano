@@ -5,48 +5,45 @@
   </picture>
 </p>
 
-Developer in Buenos Aires, finishing a Licenciatura en Informática at UNSAdA. I like building things you can watch work — pathfinders, assembly sequences, schema diagrams, benchmarks.
+I build things you can watch work. A pathfinder expanding across a map, thousands of bricks assembling themselves, a schema turning into a diagram. If a program does something interesting, I want to see it happen.
+
+Licenciatura en Informática at UNSAdA, Buenos Aires.
+
+[LinkedIn](https://www.linkedin.com/in/emilio-giordano/) &nbsp;·&nbsp; [bento.me/emiliogiordano](https://bento.me/emiliogiordano) &nbsp;·&nbsp; [giordanoemilio21@gmail.com](mailto:giordanoemilio21@gmail.com)
 
 ## Things I've built
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
-**[LEGO Millennium Falcon](https://legogallery.vercel.app/)**
+**[LEGO Gallery](https://legogallery.vercel.app/)**
 
-7,361 pieces fly out of an orbital field, through a collapsing vortex, and lock into place bag by bag. The ship is rebuilt at runtime from the original part transforms — not a pre-rendered animation.
+A browser engine that replays LEGO models as assembly sequences. A Python pipeline flattens a Mecabricks export into a compact runtime format: it walks the object hierarchy multiplying local matrices by their ancestors to recover each part's world transform, then groups parts by geometry and material so a shape is stored once and every occurrence costs one matrix. Flexible parts that rely on deformation data Three.js can't use keep their Bézier control points and get rebuilt as tube geometry in the browser.
 
-<sub>WebGL · no build step — [Live](https://legogallery.vercel.app/) · [Code](https://github.com/EmilioGiordano/lego-gallery)</sub>
+At runtime one `InstancedMesh` per geometry/material pair draws thousands of bricks without a draw call each. The choreography is deterministic: a hash of each part's stable index seeds its orbit, radius and timing, so a reload reproduces the same assembly rather than a fresh random cloud. Two sets so far, and adding one is data rather than code.
 
-</td>
-<td width="50%" valign="top">
-
-**[DBiewer](https://github.com/EmilioGiordano/DBiewer)**
-
-Paste PostgreSQL DDL, get a diagram back. I was tired of reading schemas as walls of syntax and not being able to see them, so I made the tool I wanted.
-
-<sub>JavaScript — [Code](https://github.com/EmilioGiordano/DBiewer)</sub>
+<sub>Three.js · instanced WebGL · no bundler, no backend<br>[Live](https://legogallery.vercel.app/) · [Code](https://github.com/EmilioGiordano/lego-gallery)</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**[Dijkstra & A\*](https://dijsktra-astar-star-wars.netlify.app/)**
+**[DBiewer](https://github.com/EmilioGiordano/DBiewer)**
 
-Two pathfinders searching a galaxy map side by side, so you can see exactly where the heuristic saves A\* the work. Dressed in the interface language of Jedi: Fallen Order.
+Paste PostgreSQL DDL, get a diagram back. I was tired of reading schemas as walls of syntax and not being able to see them, so I made the tool I wanted.
 
-<sub>JavaScript — [Live](https://dijsktra-astar-star-wars.netlify.app/) · [Code](https://github.com/EmilioGiordano/Star-Wars-Galaxy-dijkstra-and-A-algorithms-)</sub>
+<sub>JavaScript<br>[Code](https://github.com/EmilioGiordano/DBiewer)</sub>
 
 </td>
 <td width="50%" valign="top">
 
-**[Postopenman](https://github.com/EmilioGiordano/Postopenman)**
+**[Dijkstra & A\*](https://dijsktra-astar-star-wars.netlify.app/)**
 
-An API client with a Rust core and a Svelte front end.
+Two pathfinders searching a galaxy map side by side, so you can see exactly where the heuristic saves A\* the work. Dressed in the interface language of Jedi: Fallen Order.
 
-<sub>Rust · Svelte — [Code](https://github.com/EmilioGiordano/Postopenman)</sub>
+<sub>JavaScript<br>[Live](https://dijsktra-astar-star-wars.netlify.app/) · [Code](https://github.com/EmilioGiordano/Star-Wars-Galaxy-dijkstra-and-A-algorithms-)</sub>
 
 </td>
 </tr>
@@ -57,16 +54,23 @@ An API client with a Rust core and a Svelte front end.
 
 The Sieve of Eratosthenes written five times over and timed against itself, so the gap between a systems language and a scripting one stops being an opinion.
 
-<sub>Rust · Java · C · Python · NumPy — [Live](https://criba-expo.netlify.app/) · [Code](https://github.com/EmilioGiordano/criba-benchmark)</sub>
+<sub>Rust · Java · C · Python · NumPy<br>[Live](https://criba-expo.netlify.app/) · [Code](https://github.com/EmilioGiordano/criba-benchmark)</sub>
 
 </td>
 <td width="50%" valign="top">
 
-**[Tower of Hanoi](https://hanoi-tower-eg.vercel.app/)**
+**[Postopenman](https://github.com/EmilioGiordano/Postopenman)**
 
-The puzzle, playable in the browser.
+An API client with a Rust core and a Svelte front end.
 
-<sub>[Live](https://hanoi-tower-eg.vercel.app/)</sub>
+<sub>Rust · Svelte<br>[Code](https://github.com/EmilioGiordano/Postopenman)</sub>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[Tower of Hanoi](https://hanoi-tower-eg.vercel.app/)** &nbsp; The puzzle, playable in the browser. &nbsp; <sub>[Live](https://hanoi-tower-eg.vercel.app/)</sub>
 
 </td>
 </tr>
@@ -76,14 +80,10 @@ The puzzle, playable in the browser.
 
 Coursework I wrote up properly instead of leaving it in a notebook. Written in Spanish.
 
-- **[Cisco device commands](https://emiliogiordano.github.io/Hoja-de-Trucos-Cisco-Packet-Tracer/)** — Switches, routers, VLANs and routing protocols in Packet Tracer.
-- **[Declarative programming](https://emiliogiordano.github.io/Programacion-Declarativa-Practica/)** — Prolog and Scheme: syntax, lists, recursion.
-- **[The XOR swap](https://emiliogiordano.github.io/XOR-swap/)** — Exchanging two variables without a third one.
-
-## Elsewhere
-
-[LinkedIn](https://www.linkedin.com/in/emilio-giordano/) &nbsp;·&nbsp; [bento.me/emiliogiordano](https://bento.me/emiliogiordano) &nbsp;·&nbsp; [giordanoemilio21@gmail.com](mailto:giordanoemilio21@gmail.com)
+- **[Cisco device commands](https://emiliogiordano.github.io/Hoja-de-Trucos-Cisco-Packet-Tracer/):** switches, routers, VLANs and routing protocols in Packet Tracer.
+- **[Declarative programming](https://emiliogiordano.github.io/Programacion-Declarativa-Practica/):** Prolog and Scheme, covering syntax, lists and recursion.
+- **[The XOR swap](https://emiliogiordano.github.io/XOR-swap/):** exchanging two variables without a third one.
 
 <br>
 
-<sub>The banner is a distance field measured outward from the letterforms, plus a real Dijkstra shortest path that crosses at the space in the name — <a href="https://github.com/EmilioGiordano/EmilioGiordano/blob/main/assets/banner.py">generated here</a>.</sub>
+<sub>The banner is a distance field measured outward from the letterforms, plus a real Dijkstra shortest path that crosses at the space in the name. <a href="https://github.com/EmilioGiordano/EmilioGiordano/blob/main/assets/banner.py">Generated here</a>.</sub>
