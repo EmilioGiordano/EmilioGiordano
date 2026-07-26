@@ -84,4 +84,4 @@ Coursework I wrote up properly instead of leaving it in a notebook. Written in S
 
 <br>
 
-<sub>The banner is a distance field measured outward from the letterforms, plus a real Dijkstra shortest path that crosses at the space in the name. <a href="https://github.com/EmilioGiordano/EmilioGiordano/blob/main/assets/banner.py">Generated here</a>.</sub>
+<sub>The dots behind the banner are numbered left to right; the larger ones are the primes. <a href="https://github.com/EmilioGiordano/EmilioGiordano/blob/main/assets/banner.py">Generated here</a>.</sub>
