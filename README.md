@@ -1,7 +1,9 @@
+<!-- GitHub proxies these through camo and caches them hard. After changing a
+     banner, bump ?v= or the old image keeps being served from the same URL. -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EmilioGiordano/EmilioGiordano/main/assets/banner-dark.svg">
-    <img src="https://raw.githubusercontent.com/EmilioGiordano/EmilioGiordano/main/assets/banner-light.svg" alt="Emilio Giordano" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EmilioGiordano/EmilioGiordano/main/assets/banner-dark.svg?v=2">
+    <img src="https://raw.githubusercontent.com/EmilioGiordano/EmilioGiordano/main/assets/banner-light.svg?v=2" alt="Emilio Giordano" width="100%">
   </picture>
 </p>
 
