@@ -9,7 +9,7 @@
 
 Finishing a Bachelor's degree in Computer Science (Licenciatura en Informática) at [UNSAdA](https://www.unsada.edu.ar/), Buenos Aires.
 
-[LinkedIn](https://www.linkedin.com/in/emilio-giordano/) &nbsp;·&nbsp; [bento.me/emiliogiordano](https://bento.me/emiliogiordano) &nbsp;·&nbsp; [giordanoemilio21@gmail.com](mailto:giordanoemilio21@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/emilio-giordano/) &nbsp;·&nbsp; [giordanoemilio21@gmail.com](mailto:giordanoemilio21@gmail.com)
 
 ## Things I've built
 
