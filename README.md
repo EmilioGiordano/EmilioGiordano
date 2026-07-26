@@ -86,4 +86,4 @@ Coursework I wrote up properly instead of leaving it in a notebook. Written in S
 
 <br>
 
-<sub>The banner is a distance field measured outward from the letterforms, plus a real Dijkstra shortest path that crosses at the space in the name — <a href="assets/banner.py">generated here</a>.</sub>
+<sub>The banner is a distance field measured outward from the letterforms, plus a real Dijkstra shortest path that crosses at the space in the name — <a href="https://github.com/EmilioGiordano/EmilioGiordano/blob/main/assets/banner.py">generated here</a>.</sub>
