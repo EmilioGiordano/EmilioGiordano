@@ -5,10 +5,7 @@
   </picture>
 </p>
 
-Developer in Buenos Aires, finishing a Licenciatura en Informática at UNSAdA. I like building
-things you can watch work — pathfinders, assembly sequences, schema diagrams, benchmarks.
-
-`Rust` &nbsp;`TypeScript` &nbsp;`Java` &nbsp;`Python` &nbsp;`Svelte` &nbsp;`PostgreSQL`
+Developer in Buenos Aires, finishing a Licenciatura en Informática at UNSAdA. I like building things you can watch work — pathfinders, assembly sequences, schema diagrams, benchmarks.
 
 ## Things I've built
 
@@ -18,20 +15,18 @@ things you can watch work — pathfinders, assembly sequences, schema diagrams, 
 
 **[LEGO Millennium Falcon](https://legogallery.vercel.app/)**
 
-7,361 pieces fly out of an orbital field, through a collapsing vortex, and lock into place bag
-by bag. Rebuilt at runtime from the original part transforms — no build step, plain WebGL.
+7,361 pieces fly out of an orbital field, through a collapsing vortex, and lock into place bag by bag. The ship is rebuilt at runtime from the original part transforms — not a pre-rendered animation.
 
-<sub>[Live](https://legogallery.vercel.app/) · [Code](https://github.com/EmilioGiordano/lego-gallery)</sub>
+<sub>WebGL · no build step — [Live](https://legogallery.vercel.app/) · [Code](https://github.com/EmilioGiordano/lego-gallery)</sub>
 
 </td>
 <td width="50%" valign="top">
 
 **[DBiewer](https://github.com/EmilioGiordano/DBiewer)**
 
-Paste PostgreSQL DDL, get a diagram back. I got tired of reading schemas as walls of syntax, so
-I made the tool I wanted.
+Paste PostgreSQL DDL, get a diagram back. I was tired of reading schemas as walls of syntax and not being able to see them, so I made the tool I wanted.
 
-<sub>[Code](https://github.com/EmilioGiordano/DBiewer)</sub>
+<sub>JavaScript — [Code](https://github.com/EmilioGiordano/DBiewer)</sub>
 
 </td>
 </tr>
@@ -40,10 +35,9 @@ I made the tool I wanted.
 
 **[Dijkstra & A\*](https://dijsktra-astar-star-wars.netlify.app/)**
 
-Two pathfinders searching a galaxy map side by side, so you can see exactly where the heuristic
-saves A\* the work. Dressed in the interface language of Jedi: Fallen Order.
+Two pathfinders searching a galaxy map side by side, so you can see exactly where the heuristic saves A\* the work. Dressed in the interface language of Jedi: Fallen Order.
 
-<sub>[Live](https://dijsktra-astar-star-wars.netlify.app/) · [Code](https://github.com/EmilioGiordano/Star-Wars-Galaxy-dijkstra-and-A-algorithms-)</sub>
+<sub>JavaScript — [Live](https://dijsktra-astar-star-wars.netlify.app/) · [Code](https://github.com/EmilioGiordano/Star-Wars-Galaxy-dijkstra-and-A-algorithms-)</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -52,7 +46,7 @@ saves A\* the work. Dressed in the interface language of Jedi: Fallen Order.
 
 An API client with a Rust core and a Svelte front end.
 
-<sub>[Code](https://github.com/EmilioGiordano/Postopenman)</sub>
+<sub>Rust · Svelte — [Code](https://github.com/EmilioGiordano/Postopenman)</sub>
 
 </td>
 </tr>
@@ -61,10 +55,9 @@ An API client with a Rust core and a Svelte front end.
 
 **[Sieve benchmark](https://criba-expo.netlify.app/)**
 
-The Sieve of Eratosthenes written five times — Rust, Java, C, Python and NumPy — and timed
-against itself, with the results plotted.
+The Sieve of Eratosthenes written five times over and timed against itself, so the gap between a systems language and a scripting one stops being an opinion.
 
-<sub>[Live](https://criba-expo.netlify.app/) · [Code](https://github.com/EmilioGiordano/criba-benchmark)</sub>
+<sub>Rust · Java · C · Python · NumPy — [Live](https://criba-expo.netlify.app/) · [Code](https://github.com/EmilioGiordano/criba-benchmark)</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -81,7 +74,7 @@ The puzzle, playable in the browser.
 
 ## Notes I keep in public
 
-Coursework I wrote up properly instead of leaving in a notebook. Written in Spanish.
+Coursework I wrote up properly instead of leaving it in a notebook. Written in Spanish.
 
 - **[Cisco device commands](https://emiliogiordano.github.io/Hoja-de-Trucos-Cisco-Packet-Tracer/)** — Switches, routers, VLANs and routing protocols in Packet Tracer.
 - **[Declarative programming](https://emiliogiordano.github.io/Programacion-Declarativa-Practica/)** — Prolog and Scheme: syntax, lists, recursion.
@@ -89,11 +82,8 @@ Coursework I wrote up properly instead of leaving in a notebook. Written in Span
 
 ## Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/emilio-giordano/) &nbsp;·&nbsp;
-[bento.me/emiliogiordano](https://bento.me/emiliogiordano) &nbsp;·&nbsp;
-[giordanoemilio21@gmail.com](mailto:giordanoemilio21@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/emilio-giordano/) &nbsp;·&nbsp; [bento.me/emiliogiordano](https://bento.me/emiliogiordano) &nbsp;·&nbsp; [giordanoemilio21@gmail.com](mailto:giordanoemilio21@gmail.com)
 
 <br>
 
-<sub>The banner above is a distance field measured outward from the letterforms, plus a real Dijkstra
-shortest path that crosses at the space in the name — <a href="assets/banner.py">generated here</a>.</sub>
+<sub>The banner is a distance field measured outward from the letterforms, plus a real Dijkstra shortest path that crosses at the space in the name — <a href="assets/banner.py">generated here</a>.</sub>
