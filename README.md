@@ -9,7 +9,20 @@
 
 Finishing a Bachelor's degree in Computer Science (Licenciatura en Informática) at [UNSAdA](https://www.unsada.edu.ar/), Buenos Aires.
 
-**[Portfolio](https://giordanoemilio.vercel.app/)** &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/emilio-giordano/) &nbsp;·&nbsp; [giordanoemilio21@gmail.com](mailto:giordanoemilio21@gmail.com)
+<p>
+  <a href="https://giordanoemilio.vercel.app/"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EmilioGiordano/EmilioGiordano/main/assets/portfolio-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/EmilioGiordano/EmilioGiordano/main/assets/portfolio-light.svg?v=1" alt="Portfolio" height="34">
+  </picture></a>
+  <a href="https://www.linkedin.com/in/emilio-giordano/"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EmilioGiordano/EmilioGiordano/main/assets/linkedin-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/EmilioGiordano/EmilioGiordano/main/assets/linkedin-light.svg?v=1" alt="LinkedIn" height="34">
+  </picture></a>
+  <a href="mailto:giordanoemilio21@gmail.com"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EmilioGiordano/EmilioGiordano/main/assets/email-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/EmilioGiordano/EmilioGiordano/main/assets/email-light.svg?v=1" alt="Email" height="34">
+  </picture></a>
+</p>
 
 ## Things I've built
 

@@ -38,8 +38,12 @@ R_PLAIN, R_PRIME = 1.15, 2.7
 PALETTES = {
     # the backgrounds are GitHub's own canvas colours, so the banner sits on the
     # page instead of on top of it
-    "light": dict(bg="#FFFFFF", ink="#14110F", dots="#14110F", op_plain=0.15, op_prime=0.34),
-    "dark":  dict(bg="#0D1117", ink="#E9E6E1", dots="#E9E6E1", op_plain=0.15, op_prime=0.34),
+    # The chips need more contrast than the banner's dot field: on white a hairline
+    # at the field's opacity all but disappears.
+    "light": dict(bg="#FFFFFF", ink="#14110F", dots="#14110F", op_plain=0.15, op_prime=0.34,
+                  chip_line=0.45, chip_text=1.0, chip_fill=0.035),
+    "dark":  dict(bg="#0D1117", ink="#E9E6E1", dots="#E9E6E1", op_plain=0.15, op_prime=0.34,
+                  chip_line=0.34, chip_text=0.90, chip_fill=0.055),
 }
 
 
@@ -193,13 +197,52 @@ def build(pal):
 """
 
 
+# --------------------------------------------------------------------- link chips
+# Small outlined buttons for the header links. Same typeface, tracking and border
+# weight as the banner, so the header reads as one set of parts rather than a
+# banner with labels stuck underneath.
+CHIPS = ["PORTFOLIO", "LINKEDIN", "EMAIL"]
+CHIP_H, CHIP_PAD, CHIP_PX, CHIP_TRACK = 34, 18, 13, 0.10
+
+
+def build_chip(label, pal):
+    f = load(500)
+    scale = CHIP_PX / f["head"].unitsPerEm
+    cmap, glyphs = f.getBestCmap(), f.getGlyphSet()
+    advance = f["hmtx"][cmap[ord("A")]][0] * scale + CHIP_TRACK * CHIP_PX
+    text_w = advance * len(label) - CHIP_TRACK * CHIP_PX
+    w = round(text_w + CHIP_PAD * 2)
+    baseline = CHIP_H / 2 + cap_height(CHIP_PX, 500) / 2
+
+    parts = []
+    for i, ch in enumerate(label):
+        pen = PolyPen(glyphs)
+        glyphs[cmap[ord(ch)]].draw(pen)
+        ox = CHIP_PAD + i * advance
+        for c in pen.contours:
+            parts.append("M" + " ".join(
+                f"{ox + px*scale:.1f},{baseline - py*scale:.1f}" for px, py in c) + "Z")
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {CHIP_H}" width="{w}" height="{CHIP_H}" role="img" aria-label="{label.title()}">
+<rect x="0.7" y="0.7" width="{w - 1.4}" height="{CHIP_H - 1.4}" rx="5" fill="{pal['dots']}" fill-opacity="{pal['chip_fill']}" stroke="{pal['dots']}" stroke-opacity="{pal['chip_line']}" stroke-width="1.4"/>
+<path d="{"".join(parts)}" fill="{pal['ink']}" fill-opacity="{pal['chip_text']}"/>
+</svg>
+"""
+
+
 def main():
     here = os.path.dirname(os.path.abspath(__file__))
+    written = []
     for name, pal in PALETTES.items():
-        path = os.path.join(here, f"banner-{name}.svg")
-        with open(path, "w", encoding="utf8") as f:
+        with open(os.path.join(here, f"banner-{name}.svg"), "w", encoding="utf8") as f:
             f.write(build(pal))
-        print("wrote", os.path.basename(path))
+        written.append(f"banner-{name}.svg")
+        for label in CHIPS:
+            fn = f"{label.lower()}-{name}.svg"
+            with open(os.path.join(here, fn), "w", encoding="utf8") as f:
+                f.write(build_chip(label, pal))
+            written.append(fn)
+    print("wrote", ", ".join(written))
 
 
 if __name__ == "__main__":
