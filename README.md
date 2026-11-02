@@ -7,7 +7,9 @@
   </picture>
 </p>
 
-Finishing a Bachelor's degree in Computer Science (Licenciatura en Informática) at [UNSAdA](https://www.unsada.edu.ar/), Buenos Aires.
+Software engineer working on backend systems and AI tooling, based in Buenos Aires.
+
+Finishing my Bachelor's in Computer Science at [UNSAdA](https://www.unsada.edu.ar/).
 
 <!-- Each anchor is kept on one line with no whitespace inside it: a newline in
      there renders as a linked space and GitHub underlines it between the chips. -->
@@ -19,89 +21,32 @@ Finishing a Bachelor's degree in Computer Science (Licenciatura en Informática)
 
 ## Things I've built
 
-<table>
-<tr>
-<td colspan="2" valign="top">
+**[Zenkai](https://github.com/EmilioGiordano/Zenkai)**: a native spreadsheet built from scratch in Rust, for files too large or too messy for the usual tools. It reads and saves `.xlsx`, and a docked chat runs your own coding agents on the open workbooks.
+<br><sub>Rust, GPUI, IronCalc, Agent Client Protocol</sub>
 
-**[LEGO Gallery](https://legogallery.vercel.app/)**
+**[UNSAdA-MCP](https://unsadamcp.dev/)**: lets AI agents read my university's Moodle, which has no usable API. Read-only by design, published on [npm](https://www.npmjs.com/package/unsada-mcp), and it shrinks a full course from about 830k tokens of HTML to 5k of JSON.
+<br><sub>TypeScript, Model Context Protocol, Playwright. [Code](https://github.com/EmilioGiordano/unsada-mcp)</sub>
 
-A browser engine that replays LEGO models as assembly sequences. A Python pipeline flattens a Mecabricks export into a compact runtime format: it walks the object hierarchy multiplying local matrices by their ancestors to recover each part's world transform, then groups parts by geometry and material so a shape is stored once and every occurrence costs one matrix. Flexible parts that rely on deformation data Three.js can't use keep their Bézier control points and get rebuilt as tube geometry in the browser.
+**[CodeGraph](https://github.com/EmilioGiordano/basegraph)**: indexes a codebase into a ranked symbol graph, so an agent can orient itself in a few hundred tokens instead of reading whole files.
+<br><sub>Rust, petgraph, PageRank, Model Context Protocol</sub>
 
-At runtime one `InstancedMesh` per geometry/material pair draws thousands of bricks without a draw call each. The choreography is deterministic: a hash of each part's stable index seeds its orbit, radius and timing, so a reload reproduces the same assembly rather than a fresh random cloud. Two sets so far, and adding one is data rather than code.
+**[DocGen](https://github.com/EmilioGiordano/docgen)**: reduces Make.com blueprint exports to clean JSON for LLM analysis, with complexity stats and ready-to-use prompts for documenting and auditing them.
+<br><sub>Python, FastAPI, jq</sub>
 
-<sub>Three.js · instanced WebGL · no bundler, no backend<br>[Live](https://legogallery.vercel.app/) · [Code](https://github.com/EmilioGiordano/lego-gallery)</sub>
+**OpenLifting**: squat technique and muscle imbalance analysis from surface EMG, developed as my thesis project. A native Android app computes the metrics and syncs them to a Laravel API.
+<br><sub>Kotlin, Jetpack Compose, Laravel, PostgreSQL. [App](https://github.com/EmilioGiordano/OpenLifting-Mobile), [API](https://github.com/EmilioGiordano/Vortex)</sub>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**[LEGO Gallery](https://legogallery.vercel.app/)**: a browser engine that replays LEGO models as assembly sequences, drawing thousands of bricks with instanced WebGL.
+<br><sub>Three.js, Python. [Code](https://github.com/EmilioGiordano/lego-gallery)</sub>
 
-**[CABA rental dashboard](https://dashboard-cvd-unsada.vercel.app/)**
+Also: a [CABA rental dashboard](https://dashboard-cvd-unsada.vercel.app/), a [Sieve of Eratosthenes benchmark](https://criba-expo.netlify.app/) across five implementations, and a [Cisco commands cheat sheet](https://emiliogiordano.github.io/Hoja-de-Trucos-Cisco-Packet-Tracer/) (in Spanish).
 
-Prices, supply and affordability for Buenos Aires rentals from 2018 to 2026. KPIs and four linked charts, filterable by rooms, years and comuna, each one annotated with why that chart type answers its question. Final project for Data Quality and Visualisation.
-
-<sub>React · TypeScript · Recharts · d3-geo<br>[Live](https://dashboard-cvd-unsada.vercel.app/) · [Code](https://github.com/EmilioGiordano/Dashboard-CVD-UNSAdA)</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[DBiewer](https://github.com/EmilioGiordano/DBiewer)**
-
-Paste PostgreSQL DDL, get a diagram back. I was tired of reading schemas as walls of syntax and not being able to see them, so I made the tool I wanted.
-
-<sub>JavaScript<br>[Code](https://github.com/EmilioGiordano/DBiewer)</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Dijkstra & A\*](https://dijsktra-astar-star-wars.netlify.app/)**
-
-Two pathfinders searching a galaxy map side by side, so you can see exactly where the heuristic saves A\* the work. Dressed in the interface language of Jedi: Fallen Order.
-
-<sub>JavaScript<br>[Live](https://dijsktra-astar-star-wars.netlify.app/) · [Code](https://github.com/EmilioGiordano/Star-Wars-Galaxy-dijkstra-and-A-algorithms-)</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[Sieve benchmark](https://criba-expo.netlify.app/)**
-
-The Sieve of Eratosthenes written five times over and timed against itself, so the gap between a systems language and a scripting one stops being an opinion.
-
-<sub>Rust · Java · C · Python · NumPy<br>[Live](https://criba-expo.netlify.app/) · [Code](https://github.com/EmilioGiordano/criba-benchmark)</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Postopenman](https://github.com/EmilioGiordano/Postopenman)**
-
-An API client with a Rust core and a Svelte front end.
-
-<sub>Rust · Svelte<br>[Code](https://github.com/EmilioGiordano/Postopenman)</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[Tower of Hanoi](https://hanoi-tower-eg.vercel.app/)**
-
-The puzzle, playable in the browser.
-
-<sub>[Live](https://hanoi-tower-eg.vercel.app/)</sub>
-
-</td>
-</tr>
-</table>
-
-## Notes I keep in public
-
-Coursework I wrote up properly instead of leaving it in a notebook. Written in Spanish.
-
-- **[Cisco device commands](https://emiliogiordano.github.io/Hoja-de-Trucos-Cisco-Packet-Tracer/):** switches, routers, VLANs and routing protocols in Packet Tracer.
-- **[Declarative programming](https://emiliogiordano.github.io/Programacion-Declarativa-Practica/):** Prolog and Scheme, covering syntax, lists and recursion.
-- **[The XOR swap](https://emiliogiordano.github.io/XOR-swap/):** exchanging two variables without a third one.
+<!-- Both images are redrawn and committed by the workflows in .github/workflows.
+     They don't exist until those workflows have run once on GitHub. -->
+<p align="center">
+<a href="https://github.com/yalongwastaken/git-koi"><img src="koi/koi.gif" height="256" alt="My git-koi, redrawn every night from the day's activity"></a>
+<a href="https://egorthinks.github.io/git-bonsai/?u=EmilioGiordano"><img src="output/bonsai.gif" height="256" alt="My git-bonsai, grown from my GitHub history"></a>
+</p>
 
 <br>
 

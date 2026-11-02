@@ -1,0 +1,22 @@
+# From https://github.com/egorthinks/git-bonsai#install-3-lines-of-yaml
+# The push trigger is an addition: it draws the first tree as soon as this file lands.
+name: bonsai
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/bonsai.yml]
+
+permissions:
+  contents: write
+
+concurrency: bonsai
+
+jobs:
+  grow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: egorthinks/git-bonsai@v1
